@@ -1,2 +1,1 @@
-# dineshakurathi.github.io
-My personal website
+# h1 Heading
