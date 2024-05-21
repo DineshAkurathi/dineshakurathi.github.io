@@ -6,38 +6,53 @@
     <title>Dinesh Akurathi - Virtual Visiting Card</title>
     <style>
         body {
-            font-family: Arial, sans-serif;
+            font-family: 'Helvetica Neue', Arial, sans-serif;
             display: flex;
             justify-content: center;
             align-items: center;
             height: 100vh;
             margin: 0;
-            background-color: #f4f4f4;
+            background-color: #ffffff;
         }
         .card {
             background: white;
-            padding: 20px;
-            border-radius: 10px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
             text-align: center;
+            max-width: 350px;
+            width: 100%;
+            border: 2px solid #e53935;
         }
         .card img {
             border-radius: 50%;
-            width: 100px;
-            height: 100px;
+            width: 120px;
+            height: 120px;
+            object-fit: cover;
+            border: 3px solid #e53935;
         }
         .card h1 {
-            margin: 10px 0;
+            margin: 15px 0;
+            font-size: 24px;
+            color: #e53935;
         }
         .card p {
-            margin: 5px 0;
-            color: #555;
+            margin: 8px 0;
+            color: #333;
+            font-size: 16px;
+        }
+        .card a {
+            color: #e53935;
+            text-decoration: none;
+        }
+        .card a:hover {
+            text-decoration: underline;
         }
     </style>
 </head>
 <body>
     <div class="card">
-        <img src="https://dineshakurathi.github.io/image.jpg" alt="Your Name">
+        <img src="https://dineshakurathi.github.io/image.jpg" alt="Dinesh Akurathi">
         <h1>Dinesh Akurathi</h1>
         <p>Software Developer</p>
         <p>Rutgers University</p>
